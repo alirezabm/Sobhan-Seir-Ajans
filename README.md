@@ -33,7 +33,7 @@ The website for the **Sobhan Seir Ajans** Group
 ### All rights reserved ###
 Please note that chemical-engineering.ir is a curated site and that we reserve the right to refuse any listing for any reason.
 
-The [chemical-engineering.ir](http://chemical-engineering.ir) code and website is released under a [MIT License](http://opensource.org/licenses/MIT).
+The [sobhanseir.ir](http://sobhanseirg.ir) code and website is released under a [MIT License](http://opensource.org/licenses/MIT).
 
 
 Produced by 1schools students Network
