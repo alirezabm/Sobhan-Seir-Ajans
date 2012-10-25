@@ -50,6 +50,7 @@ header {
 menu {
 
 	float: right;
+	height: 50px;
 
 }
 
@@ -64,22 +65,27 @@ menu ul {
 menu li {
 
 	float: left;
-	
+	margin:4px 0 0 2px;
 
+}
+
+menu li:active {
+
+	background-color: yellow;
+	
 }
 
 menu a {
 
-	font-size: 17px;
+	font-size: 16px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-decoration: none;
 	outline: none;
 	border: none;
-	display: block;
-	margin-right: 20px;
-	margin-top: 15px;
 	color:#333;
+	display     : block;
 	font-weight: bold;
+	padding     : 10px 14px;
 
 }
 
@@ -88,7 +94,11 @@ menu a:hover {
 	color: yellow;
 
 }
+menu a:active {
 
+	color:#333;
+
+}
 
 header input {
 
