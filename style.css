@@ -65,7 +65,7 @@ menu ul {
 menu li {
 
 	float: left;
-	margin:4px 0 0 2px;
+	margin:5px 0 0 2px;
 
 }
 
@@ -73,6 +73,12 @@ menu li:active {
 
 	background-color: yellow;
 	
+}
+
+menu li:first-child {
+
+	background-color: yellow;
+
 }
 
 menu a {
@@ -95,6 +101,12 @@ menu a:hover {
 
 }
 menu a:active {
+
+	color:#333;
+
+}
+
+menu a:first-child {
 
 	color:#333;
 
