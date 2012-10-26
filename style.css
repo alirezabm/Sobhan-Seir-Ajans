@@ -243,6 +243,7 @@ div.slideshow ul.btns li{
 	margin      :3px 10px 0 0;
 	border-radius      : 2px;
 	background-image:url(image/1.png);
+	background-repeat  : no-repeat;
 	-webkit-transition : all 1100ms;
 	
 }
@@ -256,6 +257,35 @@ div.slideshow ul.btns li.active {
 	-webkit-transition-duration : 200ms;
 
 }
+
+div.slideshow div.previous,
+div.slideshow div.next{
+
+	position : absolute;
+	top      : 185px;
+	width    : 40px;
+	height   : 40px;
+	opacity  : 0.4;
+	cursor   : pointer;
+	background-image   : url('image/arrow.png');
+	background-repeat  : no-repeat;
+	-webkit-transition : opacity 500ms;
+}
+
+div.slideshow:hover div.previous,
+div.slideshow:hover div.next{
+	opacity : 1;
+}
+
+div.slideshow div.previous{
+	left : 10px;
+	background-position : 0px 0px;
+}
+div.slideshow div.next{
+	right : 10px;
+	background-position : -40px 0px;
+}
+
 
 
 
