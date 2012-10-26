@@ -37,7 +37,8 @@ header {
 .banner {
 
 	height: 145px;
-	background-color:lightgreen;
+	background-repeat:no-repeat;
+	background-image:url(image/banner.jpg);
 
 }
 
@@ -178,13 +179,83 @@ header input {
 
 /*----((( slideshow )))----*/
 
-.slideshow {
+.container{
 
-	height: 400px;
-	margin-bottom: 5px;
+	width       : 1000px;
+	margin      : 0 auto;
 
 }
 
+
+.slideshow {
+
+	height : 460px;
+	width      : 1000px;
+	margin: 5px 0 5px 0;
+	overflow: hidden;
+	position: relative;
+	background-image    : url(image/loading.gif);
+	background-repeat   : no-repeat;
+	background-position : center center;
+}
+
+.slideshow .train {
+
+	width: 10000;
+	height: 430px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition : left 800ms ease-in-out;
+
+}
+
+.slideshow .train > div {
+
+	width  : 1000px;
+	height : inherit;
+	float  : left;
+	border-radius       : 4px;
+	background-size     : cover;
+	background-repeat   : no-repeat;
+	background-position : left top;
+
+}
+
+
+div.slideshow ul.btns {
+
+	height: 30px;
+	bottom: -7px;
+	left: 450;
+	margin: 0 auto;
+	position: absolute;
+	list-style-type: none;
+
+}
+
+div.slideshow ul.btns li{
+
+	height: 20px;
+	float: left;
+	width: 20px;
+	cursor : pointer;
+	margin      :3px 10px 0 0;
+	border-radius      : 2px;
+	background-image:url(image/1.png);
+	-webkit-transition : all 1100ms;
+	
+}
+
+div.slideshow ul.btns li:hover,
+div.slideshow ul.btns li.active {
+
+	height: 20px;
+	background-image:url(image/2.png);
+	background-repeat: no-repeat;
+	-webkit-transition-duration : 200ms;
+
+}
 
 
 
