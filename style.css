@@ -657,3 +657,40 @@ footer p {
 	padding: 17px 0 0 0;
 
 }
+
+
+
+
+
+
+
+/*----((( Page - Contants )))----*/
+
+
+.contacts {
+
+	height: 400px;
+	background-color: orange;
+	margin: 40px 0 20px 0;
+
+
+}
+
+.information {
+
+	width: 700px;
+	height: inherit;
+	background-color: lightgreen;
+	float: left;
+
+}
+
+.form {
+
+	margin-left: 700px;
+	height: inherit;
+	width: 300px;
+	background-color: lightblue;
+
+
+}
