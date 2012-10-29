@@ -43,10 +43,21 @@
 			<div class="form">
 				
 				<h2>CONTACT FORM</h2>
-				<input type="text" value='Enter Your Name:'/>
-				<input type="text" value='Enter Your E-mail:'/>
-				<input type="text" value='Enter Your Phone:'/>
-				<input type="text" value='Enter Your Message:'/>
+
+				<form id="contact-form" action="sendmail.php" method="post">
+
+					<input class="contact-txt" type="text" name="name" id="name" placeholder="Enter Your Name:" />
+
+					<input class="contact-txt" type="text" name="mail" id="mail" placeholder="Enter Your E-mail:" />
+
+					<input class="contact-txt" type="text" name="phone" id="phone" placeholder="Enter Your Phone:" />
+
+					<input class="contact-txtmsg" type="text" name="phone" id="phone" placeholder="Enter Your Message:" />
+
+					<input class="contact-btn" type="reset" name="clear" value="CLEAR" />
+					<input class="contact-btn" type="submit" name="submit" value="SEND" />
+					
+				</form>
 
 			</div form>
 

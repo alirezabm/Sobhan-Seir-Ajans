@@ -505,7 +505,7 @@ div.slideshow div.next{
 
 	width: 80px;
 	height: 30px;
-	background-color: #444;
+	background-color: #222;
 	margin: 0 0 0 35px;
 	font-size: 14px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -670,15 +670,15 @@ footer p {
 .contacts {
 
 	height: 400px;
-	background-color: orange;
-	margin: 40px 0 20px 0;
+
+	margin: 50px 0 20px 0;
 
 
 }
 
 .information {
 
-	width: 700px;
+	width: 725px;
 	height: inherit;
 	background-color: lightgreen;
 	float: left;
@@ -687,10 +687,60 @@ footer p {
 
 .form {
 
-	margin-left: 700px;
+	margin-left: 725px;
 	height: inherit;
-	width: 300px;
-	background-color: lightblue;
+	width: 275px;
+
+	font:	10px;
 
 
+}
+
+.form h2 {
+
+	font-size: 22px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	color:#444;
+	margin-bottom: 12px;
+
+}
+
+.form .contact-txt {
+
+	font-size: 12px;
+	width: 275px;
+	height: 35px;
+	margin-top: 7px;
+
+}
+
+.form .contact-txtmsg {
+
+	font-size: 12px;
+	width: 275px;
+	height: 147px;
+	margin-top: 7px;
+
+}
+
+.form .contact-btn {
+
+	width: 80px;
+	height: 30px;
+	background-color: #222;
+	margin: 50px 0 0 0px;
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:white;
+	border: none;
+
+
+}
+
+.form .contact-btn:hover {
+
+	background-color: yellow;
+	color:#777;
+	
 }
