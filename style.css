@@ -1,3 +1,18 @@
+/*
+Theme Name: Sobhan Seir Ajans
+Theme URI: http://arbm.ir/Sobhan Seir Ajans
+Author: AliReza Bakhshizadeh Mohajer
+Author URI: http://arbm.ir
+Description: Wordpress Theme for Sobhan Seir Ajans.
+Version: 0.1
+*/
+
+
+
+
+
+
+
 
 * {
 
@@ -29,14 +44,14 @@ div.main {
 
 header {
 
-	height: 175px;
+	height: 150px;
 	background-color:white;
 
 }
 
 .banner {
 
-	height: 120px;
+	height: 95px;
 	background-image:url(image/banner.jpg);
 	background-repeat:no-repeat;
 
