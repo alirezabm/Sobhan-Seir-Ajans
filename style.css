@@ -29,14 +29,14 @@ div.main {
 
 header {
 
-	height: 200px;
+	height: 175px;
 	background-color:white;
 
 }
 
 .banner {
 
-	height: 145px;
+	height: 120px;
 	background-image:url(image/banner.jpg);
 	background-repeat:no-repeat;
 
@@ -59,22 +59,17 @@ header {
 
 /*--( menu )--*/
 
-ul {
+header ul {
 
 	float: right;
 	height: 50px;
-
-}
-
-
-ul {
-
-	list-style-type: none;
+		list-style-type: none;
 	margin-left: 10px;
 
 }
 
-ul li {
+
+header ul li {
 
 	float: left;
 	position     : relative;
@@ -82,19 +77,13 @@ ul li {
 
 }
 
-ul li:active {
+header ul li:active {
 
 	background-color: yellow;
 	
 }
 
-ul li:first-child {
-
-	background-color: yellow;
-
-}
-
-li a {
+header li a {
 
 	font-size: 16px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -109,51 +98,25 @@ li a {
 
 }
 
-li a:hover {
+header li a:hover {
 
 	color: yellow;
 
 }
-li a:active {
+
+header li a:active {
 
 	color:#333;
 
 }
 
-li a:first-child {
+header .active {
 
-	color:#333;
-
-}
-
-ul li li{
-
-	float : none;
-	border      : none;
+	background-color: yellow;
+	color:#333 !important;
 
 }
 
-ul li ul {
-
-	min-width : 100%;
-	position: absolute;
-	left: -12;
-	top: 42;
-	display   : none;
-
-}
-
-ul li:hover ul {
-
-	display: block;
-
-}
-
-ul ul li:first-child {
-
-	background-color: white;
-
-}
 
 header input {
 
@@ -274,7 +237,7 @@ div.slideshow div.next{
 
 div.slideshow:hover div.previous,
 div.slideshow:hover div.next{
-	opacity : 1;
+	opacity : 0.9;
 }
 
 div.slideshow div.previous{

@@ -15,16 +15,11 @@
 
 			<nav>
 				<ul>
-					<li> <a href="index.php">	HOME	</a> </li>
-					<li> <a href="#">	ABOUT	</a> </li>
-					<li> <a href="#">	SERVICES	</a>
-						<ul>	
-							<li> <a href="#">	SERVICES1	</a> </li>
-							<li> <a href="#">	SERVICES2	</a> </li>
-							<li> <a href="#">	SERVICES3	</a> </li>	
-							<li> <a href="#">	SERVICES4	</a> </li>
-						</ul>
+					<li class="active">
+						<a class="active" href="index.php">	HOME </a>
 					</li>
+					<li> <a href="#">	ABOUT	</a> </li>
+					<li> <a href="#">	SERVICES	</a> </li>
 					<li> <a href="#">	GALLERY	</a> </li>
 					<li> <a href="contacts.html">	CONTACTS	</a> </li>
 				</ul>
