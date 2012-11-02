@@ -1,7 +1,7 @@
 <head>
 		<link rel="stylesheet" href="style.css"/>
-		<script type="text/javascript" src="script.js" ></script>
 		<script type="text/javascript" src="zepto.js" ></script>
+		<script type="text/javascript" src="script.js" ></script>
 </head>
 
 <body>
@@ -13,22 +13,22 @@
 			<div class="banner"></div>
 			<div class="hr-headfoot1"></div>
 
-			<menu>
+			<nav>
 				<ul>
-					<li> <a href="#">	HOME	</a> </li>
+					<li> <a href="index.php">	HOME	</a> </li>
 					<li> <a href="#">	ABOUT	</a> </li>
 					<li> <a href="#">	SERVICES	</a>
-						<menu>	
+						<ul>	
 							<li> <a href="#">	SERVICES1	</a> </li>
 							<li> <a href="#">	SERVICES2	</a> </li>
 							<li> <a href="#">	SERVICES3	</a> </li>	
 							<li> <a href="#">	SERVICES4	</a> </li>
-						</menu>
+						</ul>
 					</li>
 					<li> <a href="#">	GALLERY	</a> </li>
-					<li> <a href="#">	CONTACTS	</a> </li>
+					<li> <a href="contacts.html">	CONTACTS	</a> </li>
 				</ul>
-			</menu>
+			</nav>
 			<input type="search" value=" SITE SEARCH" />
 		</header> 
 
@@ -39,7 +39,7 @@
 
 				<div class="train">	
 					<?php
-						$images_path = 'image';
+						$images_path = 'image/slider';
 
 						$images = scandir($images_path);
 						$slidesLen = 0;
