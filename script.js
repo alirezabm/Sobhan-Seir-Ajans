@@ -30,7 +30,7 @@ $(function(){
 
 	(autoPlayStart = function(){
 		if(autoPlayIv) return ;
-		autoPlayIv = setInterval(nextSlide, 3000);
+		autoPlayIv = setInterval(nextSlide, 3500);
 	})();
 
 	autoPlayStop = function(){
