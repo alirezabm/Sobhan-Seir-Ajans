@@ -37,8 +37,8 @@ header {
 .banner {
 
 	height: 145px;
-	background-repeat:no-repeat;
 	background-image:url(image/banner.jpg);
+	background-repeat:no-repeat;
 
 }
 
@@ -59,7 +59,7 @@ header {
 
 /*--( menu )--*/
 
-menu {
+ul {
 
 	float: right;
 	height: 50px;
@@ -67,14 +67,14 @@ menu {
 }
 
 
-menu {
+ul {
 
 	list-style-type: none;
 	margin-left: 10px;
 
 }
 
-menu li {
+ul li {
 
 	float: left;
 	position     : relative;
@@ -82,19 +82,19 @@ menu li {
 
 }
 
-menu li:active {
+ul li:active {
 
 	background-color: yellow;
 	
 }
 
-menu li:first-child {
+ul li:first-child {
 
 	background-color: yellow;
 
 }
 
-menu a {
+li a {
 
 	font-size: 16px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -109,31 +109,31 @@ menu a {
 
 }
 
-menu a:hover {
+li a:hover {
 
 	color: yellow;
 
 }
-menu a:active {
+li a:active {
 
 	color:#333;
 
 }
 
-menu a:first-child {
+li a:first-child {
 
 	color:#333;
 
 }
 
-menu li li{
+ul li li{
 
 	float : none;
 	border      : none;
 
 }
 
-menu li menu {
+ul li ul {
 
 	min-width : 100%;
 	position: absolute;
@@ -143,13 +143,13 @@ menu li menu {
 
 }
 
-menu li:hover menu {
+ul li:hover ul {
 
 	display: block;
 
 }
 
-menu menu li:first-child {
+ul ul li:first-child {
 
 	background-color: white;
 
