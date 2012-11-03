@@ -1,6 +1,5 @@
 
 
-
 		<body>
 
 			<div class="main">
@@ -38,3 +37,7 @@
 			</div main>
 
 		</body>
+
+	</html>
+
+	
