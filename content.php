@@ -14,7 +14,7 @@
 
 				<div class="fp-header">
 					<h2>	FEATURED PROJECTS	</h2>
-					<a href="">		VIEW ALL	</a>
+					<a href="info.php">		VIEW ALL	</a>
 				</div>
 
 				<div class="hr-content"></div>
