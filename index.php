@@ -87,7 +87,7 @@
 				<div class="fp-content">
 					
 					<div class="fp1">
-						<a href="">
+						<a href="info.html">
 							<img src="image/fp1.jpg">
 						</a>	
 					</div fp1>
@@ -97,7 +97,7 @@
 					</div fpname1>
 
 					<div class="fp2">
-						<a href="">
+						<a href="info.html">
 							<img src="image/fp2.jpg">
 						</a>	
 					</div fp2>
@@ -107,7 +107,7 @@
 					</div fpname2>
 
 					<div class="fp3">
-						<a href="">
+						<a href="info.html">
 							<img src="image/fp3.jpg">
 						</a>	
 					</div fp3>

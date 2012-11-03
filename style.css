@@ -721,3 +721,118 @@ footer p {
 	color:#777;
 	
 }
+
+
+
+
+
+
+
+/*----((( Page - Info )))----*/
+
+
+
+
+div .infopage {
+
+	height: 1050px;
+	background-color: lightyellow;
+
+}
+
+div .infp1 {
+
+	height: 350px;
+	background-color: lightgreen;
+	position: relative;
+
+}
+
+	div .infp1-img {
+
+		width: 300px;
+		height: inherit;
+		left:0;
+		background-color: red;
+		position: absolute;
+
+	}
+
+	div .infp1-cont {
+
+		width: 700px;
+		height: inherit;
+		left: 300px;
+		background-color: blue;
+		position: absolute;
+			
+	}
+
+
+
+div .infp2 {
+
+	height: 350px;
+	background-color: lightblue;
+	position: relative;
+
+}
+
+
+	div .infp2-img {
+
+		width: 300px;
+		height: inherit;
+		left: 700px;
+		background-color: green;
+		position: absolute;
+
+
+	}
+
+	div .infp2-cont {
+
+		width: 700px;
+		height: inherit;
+		left:0;
+		background-color: gray;
+		position: absolute;
+			
+	}
+
+
+
+
+div .infp3 {
+
+	height: 350px;
+	background-color: lightgray;
+	position: relative;
+	
+}
+
+
+	div .infp3-img {
+
+		width: 300px;
+		height: inherit;
+		left:0;
+		background-color: red;
+		position: absolute;
+
+	}
+
+	div .infp3-cont {
+
+		width: 700px;
+		height: inherit;
+		left: 300px;
+		background-color: blue;
+		position: absolute;
+			
+	}
+
+
+
+
+
